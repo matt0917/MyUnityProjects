@@ -7,7 +7,7 @@ Shader "Custom/cb_fresnel" {
         _Smoothness("Smoothness", Range(0, 1)) = 0
         _Metallic("Metalness", Range(0, 1)) = 0
         _Emission("Emission", color) = (0,0,0)
-        [ToggleOff] _FresnelTrigger("Fresnel On", Float) = 0.0
+        [ToggleOff] _FresnelTrigger("Fresnel On", Float) = 1.0
 
         _FresnelColor("Fresnel Color", Color) = (1,1,1,1)
         [PowerSlider(4)] _FresnelExponent("Fresnel Exponent", Range(0.25, 10)) = 1
